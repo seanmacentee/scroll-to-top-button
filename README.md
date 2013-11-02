@@ -1,6 +1,8 @@
+Demo here: http://seanmacentee.github.io/scroll-to-top-button/
+
 You need 3 things:
 
-1. The jQuery
+Step 1 - The jQuery
 >      $(document).ready(function(){
 >       $(window).scroll(function(){
 >           if ($(this).scrollTop() > 100) {
@@ -15,29 +17,30 @@ You need 3 things:
 >       });
 >      });
 
-2. The CSS
-> .scrollUpButton {
->    display: none;
->    opacity: 0.6;
->    position: fixed;
->    bottom: 10px;
->    right: 10px;
->    display: none;
->    background: #000;
->    color: #fff;
->    font-size: 1.5em;
->    text-decoration: none;
->    padding: 5px 10px 5px 10px;
->  }
->  .scrollUpButton:hover {
->    text-decoration: none;
->    color: #fff;
->    opacity: 1;
->  }
+Step 2 - The CSS
 
-3. The HTML
-Add this somewhere before the closing body tag
-`<a href="#" class="scrollUpButton">&#9650</a>`
+>     .scrollUpButton {
+>      display: none;
+>      opacity: 0.6;
+>      position: fixed;
+>      bottom: 10px;
+>      right: 10px;
+>      display: none;
+>      background: #000;
+>      color: #fff;
+>      font-size: 1.5em;
+>      text-decoration: none;
+>      padding: 5px 10px 5px 10px;
+>     }
+>     .scrollUpButton:hover {
+>      text-decoration: none;
+>      color: #fff;
+>      opacity: 1;
+>     }
+
+Step 3 - The HTML
+(Add this somewhere before the closing body tag)
+> `<a href="#" class="scrollUpButton">&#9650</a>`
 
 Note that &#9650 is html character for an 'up arrow' shape (i'm just being lazy here, you could add an image or use a font icon either) 
 
