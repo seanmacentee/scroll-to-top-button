@@ -33,6 +33,7 @@ Step 2 - The CSS
 >      padding: 5px 10px 5px 10px;
 >     }
 >     .scrollUpButton:hover, .scrollUpButton:focus {
+>	   outline: none;
 >      text-decoration: none;
 >      color: #fff;
 >      opacity: 1;
